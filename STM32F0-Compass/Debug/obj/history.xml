@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m0 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F051R8 -DSTM32F0XX_MD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\STM32F0-Compass\cmsis_boot -I..\..\..\workspace\STM32F0-Compass\stm32_lib\inc -I..\..\..\workspace -I..\..\..\workspace\STM32F0-Compass -I..\..\..\workspace\STM32F0-Compass\stm32_lib -I..\..\.. -I..\..\..\workspace\STM32F0-Compass\cmsis_core">
+      <target file="stm32f0xx_spi.o" lastModified="14c718fed96">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_spi.c" lastModified="14c718b5405"/>
+      </target>
+      <target file="stm32f0xx_gpio.o" lastModified="14c718ff4d7">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_gpio.c" lastModified="14c718b4d4b"/>
+      </target>
+      <target file="stm32f0xx_rcc.o" lastModified="14c718fe876">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_rcc.c" lastModified="14c718b4d6a"/>
+      </target>
+      <target file="UC1701X.o" lastModified="14c7191aaee">
+         <source file="..\..\..\UC1701X.c" lastModified="14c71919f4a"/>
+      </target>
+      <target file="main.o" lastModified="14c722f87c5">
+         <source file="..\..\..\main.c" lastModified="14c722f79bb"/>
+      </target>
+      <target file="GFX.o" lastModified="14c71abf160">
+         <source file="..\..\..\GFX.c" lastModified="14c71abebb8"/>
+      </target>
+      <target file="startup_stm32f0xx.o" lastModified="14c718febdf">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f0xx.s" lastModified="14c718b4d71"/>
+      </target>
+      <target file="system_stm32f0xx_temp.o" lastModified="14c718ff2e8">
+         <source file="..\..\..\cmsis_boot\system_stm32f0xx_temp.c" lastModified="14c718b4d77"/>
+      </target>
+      <target file="stm32f0xx_i2c.o" lastModified="14c718ff17b">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_i2c.c" lastModified="14c718b582a"/>
+      </target>
+   </processor>
+</history>
